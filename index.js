@@ -23,7 +23,7 @@ var cmd = 'redis-cli --eval debug_script.lua 1 score 0 10 , meeting_type:email m
 
 console.time("Exec Time");
 
-for (i = 0; i < 10; ++i)
+for (i = 0; i < 20; ++i)
 {
     exec(cmd, function(error, stdout, stderr) {
     // command output is in stdout
