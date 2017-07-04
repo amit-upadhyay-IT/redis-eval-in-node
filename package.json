@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.5.0",
+    "mssql": "^4.0.4",
     "mysql": "^2.13.0",
     "redis": "^2.7.1",
     "redis-scripto": "^0.1.3",
